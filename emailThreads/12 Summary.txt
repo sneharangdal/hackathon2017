@@ -1,0 +1,7 @@
+I’m trying to provision a v9.0 OneBox. However, I’m getting the following error in ACIS:
+https://acis.engineering.core.windows.net/WorkFlowTools.aspx?EndpointCategory=CrmTest&Endpoint=Crm+TestRegion+CloudSite6&OperationKey=STQGetByQueueItemId&QueueItemIdparam=8ddf32d2-7568-e711-80e8-000d3a10221e&TrackingNumberOptparam=
+
+
+There is a new job template for v9.0.
+https://onlineservicesdevdashboard.azurewebsites.net/Content/OnlineJobTemplateSql2016.xml 
+You need to create a new VM with this template instead of the old script, which uses an older template with old SQL Server version.

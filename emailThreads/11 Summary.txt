@@ -1,0 +1,3 @@
+I’m not able to access the VMs created by PR since yesterday. Seems like, these VMs are no longer created with default credentials. Moreover, the email notification received does not have any information regarding the credentials
+
+You will have to contact eFun TCS team to get the credentials

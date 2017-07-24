@@ -1,0 +1,7 @@
+My PR build is failing in cit_RunTest leg with below test failure. PFA for more info
+Failed       (Tests/)QAApplication.UCITest.BVT.SuperCITTest
+
+This is a known issue. I think a fix has been checked in to UClient repo.
+
+This is an inconsistent repro that we have seen in UCI, due to unexpected pop up dialogue covering the screen, a fix for which has already been checked into UCI
+This is tracked by Bug 692933. PR is queued: https://dynamicscrm.visualstudio.com/_git/CRM/pullrequest/115904?_a=files&path=%2Fbuild%2Fcorext%2Fcorext.config.

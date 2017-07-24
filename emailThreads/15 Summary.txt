@@ -1,0 +1,8 @@
+I spun up a new Scalegroup box this morning (\\crmbuilds\Builds\CRM_9.0\v9.0\DailyBuilds\Drops\0000.0706\debug\amd64) and as soon as I log into the box it kicks me off.
+
+  
+1. Open regedit on your machine -> Connect to network registry-> Enter the VM name and Use Administrator credentials  
+2. Set the values to 0 for 
+HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon\ForceAutoLogon
+HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon\AutoAdminLogon 
+
